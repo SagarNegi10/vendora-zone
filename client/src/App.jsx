@@ -4,7 +4,7 @@ import AppRoutes from './routes/AppRoutes'
 
 const App = () => {
   return (
-    <div>
+    <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
       <Toaster position='top-right' reverseOrder={false}/>
       <AppRoutes/>
     </div>
