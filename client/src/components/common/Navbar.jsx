@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom"
 import { CircleEllipsis, ShoppingCart, Undo2 } from 'lucide-react'
 import { assets } from "../../assets/assets"
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useState } from "react"
 
 const Navbar = () => {
 
